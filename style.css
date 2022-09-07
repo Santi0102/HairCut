@@ -62,12 +62,43 @@ body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
 
+.card10 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    width: 333.34px;
+    height: 208px;
+}
+
+.card11 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    width: 333.34px;
+    height: 208px;
+    margin-top: -307px;
+}
+
+.card11:hover {
+    transform: translateY(190px);
+}
+
 .card2 {
     background-color: #ffffff;
     padding: 0px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
+
+.card3 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+
 
 .serv_pelu {
     background-color: #eee;
@@ -78,7 +109,7 @@ body {
 
 .card__title {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
     padding: 10px;
 }
 
@@ -327,6 +358,17 @@ ul {
     justify-content: center;
 }
 
+.courses__content3 {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 700px;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+}
+
 .register_input1 {
     padding: 7px;
     width: 150px;
@@ -523,6 +565,24 @@ ul {
     width: 420px;
 }
 
+.barra_busqueda2 {
+    padding: 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 200px;
+    transition: all 0.5s;
+    position: absolute;
+    top: 7px;
+    left: 405px;
+}
+
+.barra_busqueda2:focus {
+    width: 400px;
+    border: 4px solid black;
+}
+
+
+
 .barra__busqueda--boton_serv {
     height: 38px;
     width: 40px;
@@ -693,6 +753,235 @@ ul {
 .card__description-us3 {
     margin-bottom: 10px;
 }
+
+
+
+
+
+.antecedentespreliminares {
+    text-align: center;
+    height: 300px;
+}
+
+
+.texto_animaciones {
+    text-align: center;
+}
+
+.animate_body {
+    height: 600px;
+}
+
+.main_animaciones {
+    position: relative;
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    animation-name: sunMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.image_animation {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 1400px;
+    animation-name: sprayMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.image_animation2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 1600px;
+    animation-name: makeupMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.image_animation3 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    animation-name: buyMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.image_animation4 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    animation-name: depilateMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.image_animation5 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 1800px;
+    animation-name: buyMove;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.map_arg {
+    margin-top: 25px;
+    margin-left: 500px;
+    
+}
+
+.main_newsection {
+    position: relative;
+}
+
+
+
+.card__title10 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.footer_seccion1 {
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes sunMove {
+    0% {
+        top: 120px;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+        top: 600px;
+    }
+}
+
+@keyframes depilateMove {
+    0% {
+        top: 120px;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+        top: 600px;
+    }
+}
+
+@keyframes makeupMove {
+    0% {
+        top: 120px;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes sprayMove {
+    0% {
+        top: 600px;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+        top: 120px;
+    }
+}
+
+@keyframes buyMove {
+    0% {
+        top: 600px;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+        top: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 992px) {
     .courses__content {
