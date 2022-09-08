@@ -6,38 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros</title>
     <link rel="shortcut icon" href="../assets/images/e0c6f025eb3326e18f3197b440021881-insignia-del-logo-de-la-afeitadora-de-peluqueria.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <header>
-        <div class="header__content">
-            <a href="../index.html">
-                <img class= "imagen" src="../assets/images/33005.png" width="200px" height="60px"/>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+            <img src="../assets/images/hair_logo_6.png" width="200px">
+              <a class="navbar-brand" href="../index.html">HairCut</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/registrarse.html">Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Iniciar Sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/serviciodepeluqueria.html">Cortes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/sobrenosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/compradeproductos.html">Comprar productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Depilacion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="header__content">
+            <a href="./index.html">
+                <img class= "imagen" src="./assets/images/33005.png" width="200px" height="60px"/>
             </a>
         <h3>
-            <a href="../index.html" class="header__content-title">HairCut</a>
+            <a href="./index.html" class="header__content-title">HairCut</a>
         </h3>
         <nav>
             <ul class="header__content-navbar">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./registrarse.html">Registrarse</a></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/registrarse.html">Registrarse</a></li>
                 <li><a href="">Iniciar Sesion</a></li>
-                <li><a href="./serviciodepeluqueria.html">Cortes</a></li>
-                <li><a href="../pages/sobrenosotros.html">Sobre nosotros</a></li>
-                <li><a href="../pages/compradeproductos.html">Comprar productos</a></li>
-                <li><a href="">Depilacion</a></li>
+                <li><a href="./pages/serviciodepeluqueria.html">Cortes</a></li>
+                <li><a href="./pages/sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="./pages/compradeproductos.html">Comprar productos</a></li>
+                <li><a href="./pages/otro.html">Depilacion</a></li>
             </ul>
         </nav>
-        </div>
+        </div> -->
     </header>
     <main class="main_aboutus">
-            <p class="aboutus_title">Sobre Nosotros:</p>
+        <section class="container">
+            <div class="row">
+                <!-- contenedor de tarjeta: -->
+                <div class="col-12 col-lg-12">
+                    <!-- fila dentro de columna -->
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="card effect">
+                                <img src="../assets/images/WFTFIQKNY5DHJKIRCHHIXOL7Z4.jpg" class="card-img-top" alt="Imagen de tarheta 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nuestra mision</h5>
+                                    <p class="card-text">Nuestra misión es impulsar el desarrollo económico en las ciudades de América Latina acelerando la adopción del comercio electrónico. Creemos que la tecnología y la innovación serán el principal catalizador del progreso en América Latina, impulsando la productividad, generando empleo, nuevos negocios y haciendo crecer la economía.</p>
+                                    <a href="#" class="btn btn-warning">Saber mas</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="card effect">
+                                <img src="../assets/images/Programa-de-Protección-Avanzada-de-Google.png" class="card-img-top" alt="Imagen de tarheta 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">La Seguridad como valor fundamental</h5>
+                                    <p class="card-text">Tu seguridad es importante para nosotros, tanto si eres usuario como socio de la App. Nos comprometemos a hacer lo que nos corresponde, y la tecnología es la clave de esa estrategia. Nos asociamos con defensores de la seguridad y desarrollamos tecnologías y sistemas nuevos para brindar una experiencia más segura y sencilla.</p>
+                                    <a href="#" class="btn btn-warning">Saber mas</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="card effect">
+                                <img src="../assets/images/Diversidad2.jpg" class="card-img-top" alt="Imagen de tarheta 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Celebramos la diversidad</h5>
+                                    <p class="card-text">Nuestro objetivo es crear un ambiente laboral inclusivo que refleje la diversidad de las ciudades donde operamos. Un lugar en el que todos puedan ser genuinos y donde la autenticidad se celebre como fortaleza. Al crear un ambiente donde las personas de todas las procedencias puedan prosperar, tanto para nuestros empleados como para nuestros clientes.</p>
+                                    <a href="#" class="btn btn-warning">Saber mas</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- <p class="aboutus_title">Sobre Nosotros:</p>
             <p class="aboutus_text">HairCut es un movimiento que nacio con la intencion de facilitar el acceso a todos los servicios que tienen que ver con el cabello especialmente, ya que este permite que cualquier persona registrada en la plataforma pueda realizar cortes de cabello, coloracion y maquillaje entre muchos servicios completamente a domicilio por lo que solo tendras que moverte para abrirle la puerta a quien contrates. Ademas contamos con un servicio de venta de producto con costos de envio muy bajos ademas que estos productos no se encuentran en cualquier tipo de negocio.</p>
             <iframe class="aboutus_video" width="500" height="315" src="https://www.youtube.com/embed/d6U9zviQ57c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img class="aboutus_photo" src="../assets/images/logoposta.png" alt="sobre nosotros foto" width="400" height="315" />
-            <p class="aboutus_title2">Mas informacion sobre la empresa:</p>
+            <p class="aboutus_title2">Mas informacion sobre la empresa:</p> -->
 
-            <article class="card-us">
+            <!-- <article class="card-us">
                 <div class="card__header-us">
                     <img class="card_header-img-us" src="../assets/images/WFTFIQKNY5DHJKIRCHHIXOL7Z4.jpg" alt="Peluqueria" width="150" height="150"/>
                 </div>
@@ -57,11 +135,11 @@
                 </div>
                 <h2 class="card__title-us3">Celebramos la diversidad</h2>
                 <p class="card__description-us3">Nuestro objetivo es crear un ambiente laboral inclusivo que refleje la diversidad de las ciudades donde operamos. Un lugar en el que todos puedan ser genuinos y donde la autenticidad se celebre como fortaleza. Al crear un ambiente donde las personas de todas las procedencias puedan prosperar, tanto para nuestros empleados como para nuestros clientes.</p>
-            </article>
+            </article> -->
     </main>
     <footer>
         <section class="footer_seccion">
-            <div class="footer__content">
+            <div class="footer__content1">
                 <article class="footer_section1">
                     <h3>Sobre Haircut</h3>
                     <ul>

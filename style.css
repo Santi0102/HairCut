@@ -99,7 +99,6 @@ body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
 
-
 .serv_pelu {
     background-color: #eee;
     padding: 20px;
@@ -872,7 +871,13 @@ ul {
 
 
 
-
+.footer__content1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
@@ -965,7 +970,13 @@ ul {
 
 
 
+.navbar-brand {
+    font-size: 40px;
+}
 
+.card-img-top {
+    height: 183.53px;
+}
 
 
 
@@ -1213,3 +1224,46 @@ ul {
 }
 
 
+
+
+@media (max-width: 992px) {
+    .footer__content1 {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__content1 {
+        margin-top: 600px;
+    }
+}
+
+@media (max-width: 366px) {
+    .footer__content1 {
+        margin-top: 900px;
+    }
+}
+
+@media (max-width: 285px) {
+    .footer__content1 {
+        margin-top: 1200px;
+    }
+}
+
+@media (max-width: 243px) {
+    .footer__content1 {
+        margin-top: 1600px;
+    }
+}
+
+@media (max-width: 104px) {
+    .footer__content1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 119px) {
+    .footer__content1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
