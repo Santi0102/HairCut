@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* encabezado: */
+
 .header {
     position: sticky;
     top: 0;
@@ -12,55 +14,29 @@
     z-index: 1;
 }
 
-.header__content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.imagen {
-    text-align: left;
-    margin-right: 20px;
-}
-
-.search_image {
-    text-align: center;
-}
-
-.barra_busqueda {
-    padding: 10px;
-    border-radius: 30px;
-    width: 300px;
-    height: 30px;
-    display: flex;
-}
-
-.barra__busqueda--boton {
-    height: 30px;
-    width: 40px;
-    border-radius: 30px;
-    border-color: black;
-}
+/* color del body: */
 
 body {
     background-color: #eee;
-    height: 2000px;
+    /* height: 2000px; */
 }
 
-.whatsapp {
-    position: fixed;
-    bottom: 40px;
-    right: 20px;
-}
+/* cartas del index: */
 
-.card {
+.card_01 {
     background-color: #ffffff;
+    height: 100%;
     padding: 0px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
+
+.card_01:hover {
+    transform: scale(1.2);
+}
+
+
+/* cartas de la pagina mejores locales: */
 
 .card10 {
     background-color: #ffffff;
@@ -70,6 +46,8 @@ body {
     width: 333.34px;
     height: 208px;
 }
+
+/* cartas de la pagina mejores locaes: */
 
 .card11 {
     background-color: #ffffff;
@@ -85,12 +63,17 @@ body {
     transform: translateY(190px);
 }
 
+/* carta de la pagina registrarse: */
+
 .card2 {
     background-color: #ffffff;
     padding: 0px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    margin-top: -15px;
 }
+
+/* carta de la pagina politica y privacidad: */
 
 .card3 {
     background-color: #ffffff;
@@ -99,6 +82,8 @@ body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
 
+/* article del index */
+
 .serv_pelu {
     background-color: #eee;
     padding: 20px;
@@ -106,11 +91,14 @@ body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 }
 
-.card__title {
+/* titulo de las tarjetas del index: */
+
+.card__title_01 {
     font-size: 20px;
-    margin-top: 50px;
     padding: 10px;
 }
+
+/* titulo de los tres circulos del index abajo del titulo servicios: */
 
 .serv__title {
     font-size: 20px;
@@ -118,10 +106,7 @@ body {
     text-align: center;
 }
 
-.card__title {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+/* titulo de la pagina registrarse */
 
 .card__title2 {
     font-size: 30px;
@@ -130,23 +115,14 @@ body {
     margin-top: 20px;
 }
 
-.card__description {
-    margin-bottom: 40px;
+/* descripcion de la pagina index: */
+
+.card__description_01 {
+    margin-bottom: px;
     padding: 10px;
 }
 
-.card__link {
-    background-color: #22c55e;
-    display: inline-block;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    color: #e2e8f0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-}
+/* link para registrarse de la pagina registrarse */
 
 .card__link2 {
     margin-top: 20px;
@@ -164,11 +140,30 @@ body {
     font-size: 16px;
 }
 
+/* link saber mas en la pagina index: */
+
+.card__link{
+    background-color: #22c55e;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* imagenes de la tarjeta del index: */
+
 .card_header-img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* imagenes de la seccion de servicios en el index: */
 
 .pelu_header-img {
     width: 100%;
@@ -177,21 +172,45 @@ body {
     margin-bottom: 20px;
 }
 
-.card__header {
-    position: relative;
-}
+/* div de las imagenes de servicios en el index: */
 
 .pelu__header {
     position: relative;
 }
 
-.card__header-tag {
-    padding: 8px;
-    color: #fff;
-    background-color: rgb(19, 0, 0);
-    position: absolute;
-    right: 0;
-    border-bottom-left-radius: 10px;
+.filters_services {
+    width: 140px;
+}
+
+.ubicacion_pelu {
+    margin-left: 20px;
+}
+
+.placeholder_title {
+    margin-left: 90px;
+}
+
+.ubication_cities {
+    margin-left: -30px;
+}
+
+.filter_title {
+    margin-top: 20px;
+}
+
+.filter_total {
+    margin-left: 20px;
+}
+
+.max-min_placeholder {
+    width: 70px;
+    margin-left: 20px;
+    margin-right: -15px;
+    margin-top: 2px;
+}
+
+.placeholder_title {
+    margin-left: 20px;
 }
 
 a {
@@ -240,6 +259,41 @@ ul {
     margin-bottom: 40px;
     text-align: center;
     font-size: 30px;
+    margin-top: 20px;
+}
+
+.aside_bar_left {
+    margin-top: 50px;
+}
+
+.courses__content_pelu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: -1000px;
+    margin-left: 180px;
+}
+
+.courses__content_pelu_prod {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: -1240px;
+    margin-left: 180px;
+}
+
+
+
+
+.courses__content_pelu_comprarproductos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -1200px;
 }
 
 .courses__content {
@@ -254,8 +308,8 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
-    max-width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .footer__content2 {
@@ -274,6 +328,16 @@ ul {
     margin: 0 auto;
 }
 
+.services_content_01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 footer {
     margin-top: 60px;
 }
@@ -290,6 +354,8 @@ ul {
 .footer_title4 {
     text-align: center;
 }
+
+/* logos en el borde inferior derecho */
 
 .whatsapp {
     position: fixed;
@@ -475,7 +541,6 @@ ul {
 }
 
 .main_servpeluqueria {
-    height: 700px;
     position: relative;
 }
 
@@ -550,18 +615,15 @@ ul {
     left: 732px;
 }
 
-.barradebusqueda_serv {
-    color: white;
-    position: absolute;
-    top: 30px;
-    margin-top: 10px;
-}
-
 .barra_busqueda_serv {
-    color: white;
-    padding: 10px;
+    margin-top: -70px;
+    margin-left: 10px;
+    padding: 5px;
     border-radius: 30px;
-    width: 420px;
+    width: 200px;
+    position: absolute;
+    top: 75px;
+    left: 465px;
 }
 
 .barra_busqueda2 {
@@ -572,8 +634,14 @@ ul {
     transition: all 0.5s;
     position: absolute;
     top: 7px;
-    left: 405px;
+    left: 415px;
 }
+
+.barra_busqueda_serv:focus {
+    width: 400px;
+    border: 3px solid black;
+}
+
 
 .barra_busqueda2:focus {
     width: 400px;
@@ -581,14 +649,14 @@ ul {
 }
 
 
-
 .barra__busqueda--boton_serv {
-    height: 38px;
+    height: 36px;
     width: 40px;
     border-radius: 30px;
     border-color: black;
     position: absolute;
-    left: 380px;
+    left: 935px;
+    top: 6px
 }
 
 .filter_serv {
@@ -850,7 +918,7 @@ ul {
 .map_arg {
     margin-top: 25px;
     margin-left: 500px;
-    
+
 }
 
 .main_newsection {
@@ -869,7 +937,13 @@ ul {
     margin-top: 150px;
 }
 
+.footer_seccion_peluqueria_comprarproductos {
+    margin-top: 150px;
+}
 
+.footer_seccion_peluqueria {
+    margin-top: 5px;
+}
 
 .footer__content1 {
     display: grid;
@@ -879,17 +953,46 @@ ul {
     margin: 0 auto;
 }
 
+.servpeluqueria_title {
+    margin-left: 10px;
+}
+
+.navbar-nav a:hover {
+    font-weight: bold;
+}
+
+.navbar-nav li:active {
+    transform: scale(0.9);
+}
+
+.navbar-nav li {
+    transition: transform 0.3s;
+}
+
+.serv_pelu:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.card__link:hover {
+    background-color: #1ca24d;
+    color: white;
+}
+
+.card__link2:hover {
+    background-color: #1ca24d;
+    color: white;
+}
+
+.card__link2:active {
+    transform: scale(0.9);
+}
 
 
 
 
 
 
-
-
-
-
-
+/* animaciones de la pagina politica y privaciodad: */
 
 @keyframes sunMove {
     0% {
@@ -901,7 +1004,7 @@ ul {
     }
 
     100% {
-        
+
         top: 600px;
     }
 }
@@ -916,7 +1019,7 @@ ul {
     }
 
     100% {
-        
+
         top: 600px;
     }
 }
@@ -945,7 +1048,7 @@ ul {
     }
 
     100% {
-        
+
         top: 120px;
     }
 }
@@ -960,7 +1063,7 @@ ul {
     }
 
     100% {
-        
+
         top: 120px;
     }
 }
@@ -984,25 +1087,115 @@ ul {
 
 
 
+.card_peluqueria {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    height: 398px;
+    width: 270px;
+}
 
+.card_peluqueria_01 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    height: 100%;
+    width: 270px;
+}
 
+.card__title_peluqueria {
+    font-size: 20px;
+    padding: 10px;
+}
 
+.card__description_peluqueria {
+    padding: 10px;
+}
 
+.card__link_peluqueria {
+    background-color: #2232c5;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
 
+.image_pelu {
+    width: 100%;
+}
 
+.card_peluqueria2 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    height: 200px;
+    width: 1500px;
+    display: flex;
+}
 
+.card__title_peluqueria2 {
+    font-size: 20px;
+    padding: 10px;
+}
 
+.card__description_peluqueria2 {
+    padding: 10px;
+}
 
+.image_pelu2 {
+    width: 100%;
+    height: 100%;
+}
+
+.card_peluqueria_serv_2 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    height: 300px;
+    width: 270px;
+}
+
+.card__title_peluqueria_serv_2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card__description_peluqueria_serv_2 {
+    padding: 10px;
+}
+
+.card__link_peluqueria_serv_2 {
+    background-color: #2232c5;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card__link_peluqueria:hover {
+    background-color: #14208a;
+    color: #e2e8f0;
+}
+
+/* mediaqueries de la pagina index: */
 
 @media (max-width: 992px) {
     .courses__content {
         grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .header__content-navbar {
-        display: none;
     }
 }
 
@@ -1019,18 +1212,6 @@ ul {
         margin: 30px 0;
     }
 
-}
-
-@media (max-width: 119px) {
-    .footer__content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 104px) {
-    .footer__content {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media (max-width: 992px) {
@@ -1058,28 +1239,12 @@ ul {
 }
 
 
-
-
-
-
-
-
-@media (max-width: 140px) {
-    .header__content-title {
-        margin-left: 60px;
-    }
-}
-
-@media (max-width: 84px) {
-    .header__content-title {
-        font-size: 20px;
-    }
-}
+/* mediaqueries de la pagina registrarse: */
 
 @media (max-width: 506px) {
     .courses__content2 {
         grid-template-columns: 400px;
-} 
+}
     .registers_inputs {
         margin-left: -50px;
     }
@@ -1092,7 +1257,7 @@ ul {
 @media (max-width: 406px) {
     .courses__content2 {
         grid-template-columns: 200px;
-    } 
+    }
     .registers_inputs {
         margin-left: -70px;
     }
@@ -1226,44 +1391,171 @@ ul {
 
 
 
-@media (max-width: 992px) {
-    .footer__content1 {
-        margin-top: 300px;
+/* mediaqueries de la seccion servicio de peluqueria: */
+
+@media (max-width: 351px) {
+    .barra_busqueda_serv {
+        margin-left: -100px;
     }
 }
 
-@media (max-width: 768px) {
-    .footer__content1 {
-        margin-top: 600px;
+
+@media (max-width: 1396px) {
+    .courses__content_pelu {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 366px) {
-    .footer__content1 {
-        margin-top: 900px;
+@media (max-width: 1092px) {
+    .courses__content_pelu {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 285px) {
-    .footer__content1 {
-        margin-top: 1200px;
+
+@media (max-width: 678px) {
+    .barra_busqueda_serv {
+        display: none;
     }
 }
 
-@media (max-width: 243px) {
-    .footer__content1 {
-        margin-top: 1600px;
+@media (max-width: 772px) {
+    .courses__content_pelu {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media (max-width: 104px) {
-    .footer__content1 {
-        grid-template-columns: 1fr;
+@media (max-width: 192px) {
+    .barra_busqueda_serv {
+        display: none;
+    }
+}
+
+@media (max-width: 187px) {
+    .courses__content_pelu {
+        margin-top: -1200px;
+    }
+}
+
+@media (max-width: 121px) {
+    .courses__content_pelu {
+        margin-top: -1500px;
     }
 }
 
 @media (max-width: 119px) {
-    .footer__content1 {
+    .aside_bar_left{
+        display: none;
+    }
+
+    .courses__content_pelu {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    .servpeluqueria_title {
+        display: none;
+    }
+}
+
+@media (max-width: 68px) {
+    .card_peluqueria {
+        width: 200px;
+    }
+
+    .courses__content_pelu {
+        gap: 200px;
+    }
+}
+
+
+
+/* mediaqueries de la pagina compra de productos: */
+
+@media (max-width: 1396px) {
+    .courses__content_pelu_prod {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1092px) {
+    .courses__content_pelu_prod {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 772px) {
+    .courses__content_pelu_prod {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 187px) {
+    .courses__content_pelu_prod {
+        margin-top: -1200px;
+    }
+}
+
+@media (max-width: 121px) {
+    .courses__content_pelu_prod {
+        margin-top: -1500px;
+    }
+}
+
+@media (max-width: 119px) {
+
+    .courses__content_pelu_prod {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 68px) {
+    .card_peluqueria_01 {
+        width: 200px;
+    }
+
+    .courses__content_pelu_prod {
+        gap: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .services_content_01 {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services_content_01 {
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 612px) {
+    .services_content_01 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 436px) {
+    .services_content_01 {
+        margin-top: 700px;
+    }
+}
+
+@media (max-width: 342px) {
+    .services_content_01 {
+        margin-top: 900px;
+    }
+}
+
+@media (max-width: 342px) {
+    .services_content_01 {
+        margin-top: 1500px;
+    }
+
+    .services_content_01 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
