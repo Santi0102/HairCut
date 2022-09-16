@@ -1,39 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* encabezado: */
 
-.header {
-    position: sticky;
-    top: 0;
-    background-color: rgba(238, 238, 238, 0.904);
-    padding: 30px 20px;
-    z-index: 1;
-}
+
 
 /* color del body: */
 
-body {
-    background-color: #eee;
-    /* height: 2000px; */
-}
-
 /* cartas del index: */
-
-.card_01 {
-    background-color: #ffffff;
-    height: 100%;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-}
-
-.card_01:hover {
-    transform: scale(1.2);
-}
 
 
 /* cartas de la pagina mejores locales: */
@@ -84,27 +56,11 @@ body {
 
 /* article del index */
 
-.serv_pelu {
-    background-color: #eee;
-    padding: 20px;
-    border-radius: 130px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-}
+
 
 /* titulo de las tarjetas del index: */
 
-.card__title_01 {
-    font-size: 20px;
-    padding: 10px;
-}
-
 /* titulo de los tres circulos del index abajo del titulo servicios: */
-
-.serv__title {
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 
 /* titulo de la pagina registrarse */
 
@@ -116,11 +72,6 @@ body {
 }
 
 /* descripcion de la pagina index: */
-
-.card__description_01 {
-    margin-bottom: px;
-    padding: 10px;
-}
 
 /* link para registrarse de la pagina registrarse */
 
@@ -142,41 +93,13 @@ body {
 
 /* link saber mas en la pagina index: */
 
-.card__link{
-    background-color: #22c55e;
-    display: inline-block;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    color: #e2e8f0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-}
-
 /* imagenes de la tarjeta del index: */
 
-.card_header-img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+
 
 /* imagenes de la seccion de servicios en el index: */
 
-.pelu_header-img {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
 /* div de las imagenes de servicios en el index: */
-
-.pelu__header {
-    position: relative;
-}
 
 .filters_services {
     width: 140px;
@@ -213,55 +136,6 @@ body {
     margin-left: 20px;
 }
 
-a {
-    text-decoration: none;
-}
-
-p {
-    line-height: 1.5;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.header__content-title {
-    color: black;
-    font-size: 40px;
-}
-
-.header__content-navbar {
-    display: flex;
-}
-
-.header__content-navbar a {
-    margin: 0 15px;
-    color: black;
-}
-
-.courses {
-    margin-top: 60px;
-    padding: 0 20px;
-}
-
-.services_haircut {
-    margin-top: 60px;
-    padding: 0 20px;
-}
-
-.courses__title {
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.services_title {
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
-}
-
 .aside_bar_left {
     margin-top: 50px;
 }
@@ -296,36 +170,12 @@ ul {
     margin-top: -1200px;
 }
 
-.courses__content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .footer__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     margin: 0 auto;
     justify-content: space-between;
-}
-
-.footer__content2 {
-    display: grid;
-    justify-content: center;
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.services_content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .services_content_01 {
@@ -338,48 +188,18 @@ ul {
 
 
 
-footer {
-    margin-top: 60px;
-}
-
 .piedepagina {
     display: grid;
     justify-content: space-between;
 }
 
-ul {
-    list-style: none;
-}
+
 
 .footer_title4 {
     text-align: center;
 }
 
 /* logos en el borde inferior derecho */
-
-.whatsapp {
-    position: fixed;
-    bottom: 40px;
-    right: 10px;
-}
-
-.instagram {
-    position: fixed;
-    bottom: 40px;
-    right: 70px;
-}
-
-.twitter {
-    position: fixed;
-    bottom: 40px;
-    right: 135px;
-}
-
-.linkedin {
-    position: fixed;
-    bottom: 40px;
-    right: 200px;
-}
 
 .card_register {
     background-color: white;
@@ -518,101 +338,8 @@ ul {
     margin-top: 20px;
 }
 
-.image_peluqueria {
-    border-radius: 10px;
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-right: 250px;
-    margin-bottom: -25px;
-}
-
-.name_peluquero {
-    position: absolute;
-    top: 110px;
-    left: 270px;
-}
-
-.info_peluquero {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 140px;
-    left: 235px;
-}
-
 .main_servpeluqueria {
     position: relative;
-}
-
-.name_peluquero2 {
-    position: absolute;
-    top: 110px;
-    left: 770px;
-}
-
-.info_peluquero2 {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 140px;
-    left: 740px;
-}
-
-.name_peluquero3 {
-    position: absolute;
-    top: 300px;
-    left: 265px;
-}
-
-.info_peluquero3 {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 330px;
-    left: 235px;
-}
-
-.name_peluquero4 {
-    position: absolute;
-    top: 300px;
-    left: 780px;
-}
-
-.info_peluquero4 {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 330px;
-    left: 740px;
-}
-
-.name_peluquero5 {
-    position: absolute;
-    top: 500px;
-    left: 290px;
-}
-
-.info_peluquero5 {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 530px;
-    left: 250px;
-}
-
-.name_peluquero6 {
-    text-align: center;
-    position: absolute;
-    top: 500px;
-    left: 760px;
-}
-
-.info_peluquero6 {
-    text-align: center;
-    width: 200px;
-    position: absolute;
-    top: 530px;
-    left: 732px;
 }
 
 .barra_busqueda_serv {
@@ -710,43 +437,6 @@ ul {
     position: absolute;
     top: 480px;
     right: 705px;
-}
-
-
-
-
-
-.aboutus_text {
-    width: 400px;
-    padding: 15px;
-    line-height: 25px;
-}
-
-.aboutus_title {
-    font-size: 40px;
-    padding-bottom: 10px;
-}
-
-.main_aboutus {
-    height: 1000px;
-    position: relative;
-}
-
-.aboutus_video {
-    position: absolute;
-    left: 500px;
-    bottom: 650px;
-}
-
-.aboutus_photo {
-    position: absolute;
-    top: 50px;
-    left: 1100px;
-}
-
-.aboutus_title2 {
-    font-size: 40px;
-    margin-top: 30px;
 }
 
 .card-us {
@@ -957,27 +647,6 @@ ul {
     margin-left: 10px;
 }
 
-.navbar-nav a:hover {
-    font-weight: bold;
-}
-
-.navbar-nav li:active {
-    transform: scale(0.9);
-}
-
-.navbar-nav li {
-    transition: transform 0.3s;
-}
-
-.serv_pelu:hover {
-    background-color: rgb(180, 180, 180);
-}
-
-.card__link:hover {
-    background-color: #1ca24d;
-    color: white;
-}
-
 .card__link2:hover {
     background-color: #1ca24d;
     color: white;
@@ -986,6 +655,8 @@ ul {
 .card__link2:active {
     transform: scale(0.9);
 }
+
+
 
 
 
@@ -1073,9 +744,7 @@ ul {
 
 
 
-.navbar-brand {
-    font-size: 40px;
-}
+
 
 .card-img-top {
     height: 183.53px;
@@ -1192,52 +861,6 @@ ul {
 }
 
 /* mediaqueries de la pagina index: */
-
-@media (max-width: 992px) {
-    .courses__content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 578px) {
-    .courses__content {
-        grid-template-columns: 1fr;
-    }
-
-    .statistics__content {
-        flex-direction: column;
-    }
-
-    .statistics__content-data {
-        margin: 30px 0;
-    }
-
-}
-
-@media (max-width: 992px) {
-    .services_content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 370px) {
-    .imagen {
-        display: none;
-    }
-}
-
-@media (max-width: 578px) {
-    .services_content {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 993px) {
-    .redes_sociales {
-        display: none;
-    }
-}
-
 
 /* mediaqueries de la pagina registrarse: */
 

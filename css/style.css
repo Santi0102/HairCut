@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+footer {
+  margin-top: 60px; }
+
+a {
+  text-decoration: none; }
+
+p {
+  line-height: 1.5; }
+
+ul {
+  list-style-type: none; }
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 10px; }
+
+.instagram {
+  position: fixed;
+  bottom: 40px;
+  right: 70px; }
+
+.twitter {
+  position: fixed;
+  bottom: 40px;
+  right: 135px; }
+
+.linkedin {
+  position: fixed;
+  bottom: 40px;
+  right: 200px; }
+
+body {
+  background-color: #eee; }
+
+.services_haircut {
+  margin-top: 60px;
+  padding: 0 20px; }
+  .services_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.footer__content2 {
+  display: grid;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@media (max-width: 992px) {
+  .courses__content {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 578px) {
+  .courses__content {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 992px) {
+  .services_content {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 578px) {
+  .services_content {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 993px) {
+  .redes_sociales {
+    display: none; } }
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(238, 238, 238, 0.904);
+  padding: 30px 20px;
+  z-index: 1; }
+  .navbar-brand {
+    font-size: 40px; }
+    .navbar-nav a:hover {
+      font-weight: bold; }
+    .navbar-nav li {
+      transition: transform 0.3s; }
+      .navbar-nav li:active {
+        transform: scale(0.9); }
+
+.serv_pelu {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 130px;
+  box-shadow: 0 25px 50px -12px black; }
+  .serv_pelu:hover {
+    background-color: #b4b4b4; }
+  .pelu__header {
+    position: relative; }
+    .pelu_header-img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      margin-bottom: 20px; }
+  .serv__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+
+.courses {
+  margin-top: 60px;
+  padding: 0 20px; }
+  .courses__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px; }
+  .courses__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto; }
+    .card_01 {
+      background-color: #ffffff;
+      height: 100%;
+      padding: 0px;
+      border-radius: 10px;
+      box-shadow: 0 25px 50px -12px black; }
+      .card_01:hover {
+        transform: scale(1.2); }
+      .card_header-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px; }
+      .card__title_01 {
+        font-size: 20px;
+        padding: 10px; }
+      .card__description_01 {
+        margin-bottom: px;
+        padding: 10px; }
+      .card__link {
+        background-color: #22c55e;
+        display: inline-block;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        color: #e2e8f0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px; }
+        .card__link:hover {
+          background-color: #1ca24d;
+          color: white; }
+
+.services_title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,23 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(238, 238, 238, 0.904);
+    padding: 30px 20px;
+    z-index: 1;
+
+    &navbar-brand {
+        font-size: 40px;
+
+        &navbar-nav a:hover {
+            font-weight: bold;
+        }
+
+        &navbar-nav li {
+            transition: transform 0.3s;
+
+            &navbar-nav li:active {
+                transform: scale(0.9);
+            }
+        }
+    }
+}

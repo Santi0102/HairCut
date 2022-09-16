@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+.instagram {
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+}
+
+.twitter {
+    position: fixed;
+    bottom: 40px;
+    right: 135px;
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 40px;
+    right: 200px;
+}
+
+body {
+    background-color: #eee;
+    /* height: 2000px; */
+}
+
+.services_haircut {
+    margin-top: 60px;
+    padding: 0 20px;
+
+    &services_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 100px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.footer__content2 {
+    display: grid;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .courses__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 578px) {
+    .courses__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .services_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 578px) {
+    .services_content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 993px) {
+    .redes_sociales {
+        display: none;
+    }
+}
