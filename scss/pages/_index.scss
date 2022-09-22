@@ -37,11 +37,13 @@
     }
     
     &courses__content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 100px;
-        max-width: 1200px;
-        margin: 0 auto;
+        @extend .contenedor1;
+        @include templateGrid(3);
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // gap: 100px;
+        // max-width: 1200px;
+        // margin: 0 auto;
 
         &card_01 {
             background-color: #ffffff;

@@ -39,7 +39,8 @@ ul {
   right: 200px; }
 
 body {
-  background-color: #eee; }
+  background-color: #eee;
+  /* height: 2000px; */ }
 
 .services_haircut {
   margin-top: 60px;
@@ -47,14 +48,14 @@ body {
   .services_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto; }
+    gap: 100px; }
 
 .footer__content2 {
   display: grid;
   justify-content: center;
-  gap: 100px;
+  gap: 100px; }
+
+.contenedor1, .services_content, .footer__content2, .courses__content {
   max-width: 1200px;
   margin: 0 auto; }
 
@@ -93,6 +94,31 @@ body {
       .navbar-nav li:active {
         transform: scale(0.9); }
 
+.footer_section3 .cc-argentina {
+  transition: all in 0.3s; }
+  .footer_section3 .cc-argentina:hover {
+    color: #55acee; }
+
+.footer_section3 .cc-uruguay {
+  transition: all in 0.3s; }
+  .footer_section3 .cc-uruguay:hover {
+    color: #0703e0; }
+
+.footer_section3 .cc-chile {
+  transition: all in 0.3s; }
+  .footer_section3 .cc-chile:hover {
+    color: #f01414; }
+
+.footer_section3 .cc-brasil {
+  transition: all in 0.3s; }
+  .footer_section3 .cc-brasil:hover {
+    color: #048d04; }
+
+.footer_section3 .cc-mexico {
+  transition: all in 0.3s; }
+  .footer_section3 .cc-mexico:hover {
+    color: #044107; }
+
 .serv_pelu {
   background-color: #eee;
   padding: 20px;
@@ -122,9 +148,7 @@ body {
   .courses__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto; }
+    gap: 100px; }
     .card_01 {
       background-color: #ffffff;
       height: 100%;
@@ -163,15 +187,3 @@ body {
   text-align: center;
   font-size: 30px;
   margin-top: 20px; }
-
-
-
-
-
-
-
-
-
-
-
-  
