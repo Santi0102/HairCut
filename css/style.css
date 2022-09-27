@@ -66,26 +66,6 @@ body {
 .placeholder_title_01 {
   margin-left: 75px; }
 
-@media (max-width: 992px) {
-  .courses__content {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (max-width: 578px) {
-  .courses__content {
-    grid-template-columns: 1fr; } }
-
-@media (max-width: 992px) {
-  .services_content {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (max-width: 578px) {
-  .services_content {
-    grid-template-columns: 1fr; } }
-
-@media (max-width: 993px) {
-  .redes_sociales {
-    display: none; } }
-
 .header {
   position: sticky;
   top: 0;
@@ -282,89 +262,6 @@ body {
       .card__link2:active {
         transform: scale(0.9); }
 
-@media (max-width: 506px) {
-  .courses__content2 {
-    grid-template-columns: 400px; }
-  .registers_inputs {
-    margin-left: -50px; }
-  .card__link2 {
-    margin-left: 120px; } }
-
-@media (max-width: 406px) {
-  .courses__content2 {
-    grid-template-columns: 200px; }
-  .registers_inputs {
-    margin-left: -70px; }
-  .register-input2 {
-    margin-top: 15px;
-    margin-left: 85px; }
-  .card__link2 {
-    margin-left: 120px; }
-  .register_input3 {
-    width: 150px; }
-  .register_input4 {
-    width: 150px; }
-  .register_input5 {
-    width: 150px; }
-  .register_input6 {
-    width: 150px; }
-  .card__link2 {
-    margin-left: 25px; } }
-
-@media (max-width: 212px) {
-  .courses__content2 {
-    margin-left: 60px; } }
-
-@media (max-width: 160px) {
-  .courses__content2 {
-    margin-left: 120px; } }
-
-@media (max-width: 105px) {
-  .courses__content2 {
-    grid-template-columns: 130px; }
-  .register_input1 {
-    width: 100px; }
-  .register-input2 {
-    width: 100px; }
-  .card__link2 {
-    margin-left: 15px;
-    width: 100px; }
-  .register_input3 {
-    width: 100px; }
-  .register_input4 {
-    width: 100px; }
-  .register_input5 {
-    width: 100px; }
-  .register_input6 {
-    width: 100px; } }
-
-@media (max-width: 104px) {
-  .courses__content2 {
-    margin-left: 30px; } }
-
-@media (max-width: 100px) {
-  .courses__content2 {
-    grid-template-columns: 90px; }
-  .card__title2 {
-    font-size: 15px; }
-  .register_input1 {
-    width: 50px; }
-  .register-input2 {
-    width: 50px; }
-  .card__link2 {
-    width: 50px;
-    font-size: 10px; }
-  .register_input3 {
-    width: 50px; }
-  .register_input4 {
-    width: 50px; }
-  .register_input5 {
-    width: 50px; }
-  .register_input6 {
-    width: 50px; }
-  .register_footer {
-    margin-left: -40px; } }
-
 .main_servpeluqueria {
   position: relative; }
   .servpeluqueria_title {
@@ -434,63 +331,6 @@ body {
   margin-right: -15px;
   margin-top: 2px; }
 
-@media (max-width: 1396px) {
-  .courses__content_pelu_prod {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media (max-width: 1092px) {
-  .courses__content_pelu_prod {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (max-width: 772px) {
-  .courses__content_pelu_prod {
-    grid-template-columns: repeat(1, 1fr); } }
-
-@media (max-width: 187px) {
-  .courses__content_pelu_prod {
-    margin-top: -1200px; } }
-
-@media (max-width: 121px) {
-  .courses__content_pelu_prod {
-    margin-top: -1500px; } }
-
-@media (max-width: 119px) {
-  .courses__content_pelu_prod {
-    margin-top: 20px;
-    margin-left: 0%; } }
-
-@media (max-width: 68px) {
-  .card_peluqueria_01 {
-    width: 200px; }
-  .courses__content_pelu_prod {
-    gap: 200px; } }
-
-@media (max-width: 992px) {
-  .services_content_01 {
-    margin-top: 200px; } }
-
-@media (max-width: 768px) {
-  .services_content_01 {
-    margin-top: 500px; } }
-
-@media (max-width: 612px) {
-  .services_content_01 {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (max-width: 436px) {
-  .services_content_01 {
-    margin-top: 700px; } }
-
-@media (max-width: 342px) {
-  .services_content_01 {
-    margin-top: 900px; } }
-
-@media (max-width: 342px) {
-  .services_content_01 {
-    margin-top: 1500px; }
-  .services_content_01 {
-    grid-template-columns: repeat(1, 1fr); } }
-
 .main_servpeluqueria {
   margin: 0; }
   .placeholder_title {
@@ -513,53 +353,6 @@ body {
 .placeholder_title {
   margin-left: 90px; }
 
-@media (max-width: 351px) {
-  .barra_busqueda_serv {
-    margin-left: -100px; } }
-
-@media (max-width: 1396px) {
-  .courses__content_pelu {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media (max-width: 1092px) {
-  .courses__content_pelu {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (max-width: 678px) {
-  .barra_busqueda_serv {
-    display: none; } }
-
-@media (max-width: 772px) {
-  .courses__content_pelu {
-    grid-template-columns: repeat(1, 1fr); } }
-
-@media (max-width: 192px) {
-  .barra_busqueda_serv {
-    display: none; } }
-
-@media (max-width: 187px) {
-  .courses__content_pelu {
-    margin-top: -1200px; } }
-
-@media (max-width: 121px) {
-  .courses__content_pelu {
-    margin-top: -1500px; } }
-
-@media (max-width: 119px) {
-  .aside_bar_left {
-    display: none; }
-  .courses__content_pelu {
-    margin-top: 20px;
-    margin-left: 0%; }
-  .servpeluqueria_title {
-    display: none; } }
-
-@media (max-width: 68px) {
-  .card_peluqueria {
-    width: 200px; }
-  .courses__content_pelu {
-    gap: 200px; } }
-
 .card10 {
   background-color: #ffffff;
   padding: 0px;
@@ -579,3 +372,212 @@ body {
 
 .card11:hover {
   transform: translateY(190px); }
+
+
+@media (max-width: 992px) {
+  .courses__content {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 578px) {
+  .courses__content {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 992px) {
+  .services_content {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 578px) {
+  .services_content {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 993px) {
+  .redes_sociales {
+    display: none; } }
+
+    @media (max-width: 506px) {
+      .courses__content2 {
+        grid-template-columns: 400px; }
+      .registers_inputs {
+        margin-left: -50px; }
+      .card__link2 {
+        margin-left: 120px; } }
+    
+    @media (max-width: 406px) {
+      .courses__content2 {
+        grid-template-columns: 200px; }
+      .registers_inputs {
+        margin-left: -70px; }
+      .register-input2 {
+        margin-top: 15px;
+        margin-left: 85px; }
+      .card__link2 {
+        margin-left: 120px; }
+      .register_input3 {
+        width: 150px; }
+      .register_input4 {
+        width: 150px; }
+      .register_input5 {
+        width: 150px; }
+      .register_input6 {
+        width: 150px; }
+      .card__link2 {
+        margin-left: 25px; } }
+    
+    @media (max-width: 212px) {
+      .courses__content2 {
+        margin-left: 60px; } }
+    
+    @media (max-width: 160px) {
+      .courses__content2 {
+        margin-left: 120px; } }
+    
+    @media (max-width: 105px) {
+      .courses__content2 {
+        grid-template-columns: 130px; }
+      .register_input1 {
+        width: 100px; }
+      .register-input2 {
+        width: 100px; }
+      .card__link2 {
+        margin-left: 15px;
+        width: 100px; }
+      .register_input3 {
+        width: 100px; }
+      .register_input4 {
+        width: 100px; }
+      .register_input5 {
+        width: 100px; }
+      .register_input6 {
+        width: 100px; } }
+
+@media (max-width: 104px) {
+  .courses__content2 {
+    margin-left: 30px; } }
+
+@media (max-width: 100px) {
+  .courses__content2 {
+    grid-template-columns: 90px; }
+  .card__title2 {
+    font-size: 15px; }
+  .register_input1 {
+    width: 50px; }
+  .register-input2 {
+    width: 50px; }
+  .card__link2 {
+    width: 50px;
+    font-size: 10px; }
+  .register_input3 {
+    width: 50px; }
+  .register_input4 {
+    width: 50px; }
+  .register_input5 {
+    width: 50px; }
+  .register_input6 {
+    width: 50px; }
+  .register_footer {
+    margin-left: -40px; } }
+
+    @media (max-width: 1396px) {
+      .courses__content_pelu_prod {
+        grid-template-columns: repeat(3, 1fr); } }
+    
+    @media (max-width: 1092px) {
+      .courses__content_pelu_prod {
+        grid-template-columns: repeat(2, 1fr); } }
+    
+    @media (max-width: 772px) {
+      .courses__content_pelu_prod {
+        grid-template-columns: repeat(1, 1fr); } }
+    
+    @media (max-width: 187px) {
+      .courses__content_pelu_prod {
+        margin-top: -1200px; } }
+    
+    @media (max-width: 121px) {
+      .courses__content_pelu_prod {
+        margin-top: -1500px; } }
+    
+    @media (max-width: 119px) {
+      .courses__content_pelu_prod {
+        margin-top: 20px;
+        margin-left: 0%; } }
+    
+    @media (max-width: 68px) {
+      .card_peluqueria_01 {
+        width: 200px; }
+      .courses__content_pelu_prod {
+        gap: 200px; } }
+    
+    @media (max-width: 992px) {
+      .services_content_01 {
+        margin-top: 200px; } }
+    
+    @media (max-width: 768px) {
+      .services_content_01 {
+        margin-top: 500px; } }
+    
+    @media (max-width: 612px) {
+      .services_content_01 {
+        grid-template-columns: repeat(2, 1fr); } }
+    
+    @media (max-width: 436px) {
+      .services_content_01 {
+        margin-top: 700px; } }
+    
+    @media (max-width: 342px) {
+      .services_content_01 {
+        margin-top: 900px; } }
+    
+    @media (max-width: 342px) {
+      .services_content_01 {
+        margin-top: 1500px; }
+      .services_content_01 {
+        grid-template-columns: repeat(1, 1fr); } }
+
+        @media (max-width: 351px) {
+          .barra_busqueda_serv {
+            margin-left: -100px; } }
+        
+        @media (max-width: 1396px) {
+          .courses__content_pelu {
+            grid-template-columns: repeat(3, 1fr); } }
+        
+        @media (max-width: 1092px) {
+          .courses__content_pelu {
+            grid-template-columns: repeat(2, 1fr); } }
+        
+        @media (max-width: 678px) {
+          .barra_busqueda_serv {
+            display: none; } }
+        
+        @media (max-width: 772px) {
+          .courses__content_pelu {
+            grid-template-columns: repeat(1, 1fr); } }
+        
+        @media (max-width: 192px) {
+          .barra_busqueda_serv {
+            display: none; } }
+        
+        @media (max-width: 187px) {
+          .courses__content_pelu {
+            margin-top: -1200px; } }
+        
+        @media (max-width: 121px) {
+          .courses__content_pelu {
+            margin-top: -1500px; } }
+        
+        @media (max-width: 119px) {
+          .aside_bar_left {
+            display: none; }
+          .courses__content_pelu {
+            margin-top: 20px;
+            margin-left: 0%; }
+          .servpeluqueria_title {
+            display: none; } }
+        
+        @media (max-width: 68px) {
+          .card_peluqueria {
+            width: 200px; }
+          .courses__content_pelu {
+            gap: 200px; } }
+
