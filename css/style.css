@@ -373,6 +373,9 @@ body {
 .card11:hover {
   transform: translateY(190px); }
 
+.card__descrition {
+  font-size: 10px;
+}
 
 @media (max-width: 992px) {
   .courses__content {
