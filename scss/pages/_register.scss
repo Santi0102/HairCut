@@ -1,0 +1,270 @@
+.courses__content2 {
+    @extend .contenedor1;
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 100px;
+    // max-width: 1200px;
+    // margin: 0 auto;
+    justify-content: center;
+
+    &card2 {
+        background-color: #ffffff;
+        padding: 0px;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+        margin-top: -15px;
+
+        &card__title2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        &registers_inputs {
+            padding: 0;
+        
+            &register_input1 {
+                padding: 7px;
+                width: 150px;
+                border-radius: 10px;
+                margin-left: 85px;
+            }
+                
+            &register_input2 {
+                padding: 7px;
+                width: 150px;
+                border-radius: 10px;
+                margin-left: 10px;
+                }
+        
+            &register_input3 {
+                padding: 7px;
+                width: 314px;
+                border-radius: 10px;
+                margin-left: 85px;
+                margin-top: 15px;
+            }
+                
+            &register_input4 {
+                padding: 7px;
+                width: 314px;
+                border-radius: 10px;
+                margin-left: 85px;
+                margin-top: 15px;
+            }
+                
+            &register_input5 {
+                padding: 7px;
+                width: 314px;
+                border-radius: 10px;
+                margin-left: 85px;
+                margin-top: 15px;
+            }
+                
+            &register_input6 {
+                padding: 7px;
+                width: 314px;
+                border-radius: 10px;
+                margin-left: 85px;
+                margin-top: 15px;
+            }
+                
+            &register_input7 {
+                padding: 7px;
+                width: 200px;
+                border-radius: 10px;
+                background-color: #22c55e;
+                color: #ffffff;
+            }
+        }
+
+        &register_footer {
+            text-align: center;
+            margin-top: 20px;
+            line-height: 18px;
+            padding: 0 50px;
+        }
+
+        &register_footer2 {
+            text-align: center;
+        }
+
+        &register_login {
+            color: rgb(0, 140, 255);
+        }
+
+        &card__link2 {
+            margin-top: 20px;
+            background-color: #22c55e;
+            display: inline-block;
+            margin-left: 175px;
+            margin-bottom: 30px;
+            width: 150px;
+            padding: 15px 0;
+            text-align: center;
+            color: #e2e8f0;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+
+            &card__link2:hover {
+                background-color: #1ca24d;
+                color: white;
+            }
+            
+            &card__link2:active {
+                transform: scale(0.9);
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 506px) {
+    .courses__content2 {
+        grid-template-columns: 400px;
+}
+    .registers_inputs {
+        margin-left: -50px;
+    }
+
+    .card__link2 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 406px) {
+    .courses__content2 {
+        grid-template-columns: 200px;
+    }
+    .registers_inputs {
+        margin-left: -70px;
+    }
+
+    .register-input2 {
+        margin-top: 15px;
+        margin-left: 85px;
+    }
+
+    .card__link2 {
+        margin-left: 120px;
+    }
+
+    .register_input3 {
+        width: 150px;
+    }
+
+    .register_input4 {
+        width: 150px;
+    }
+
+    .register_input5 {
+        width: 150px;
+    }
+
+    .register_input6 {
+        width: 150px;
+    }
+
+    .card__link2 {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 212px) {
+    .courses__content2 {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 160px) {
+    .courses__content2 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 105px) {
+    .courses__content2 {
+        grid-template-columns: 130px;
+    }
+
+    .register_input1 {
+        width: 100px;
+    }
+
+    .register-input2 {
+        width: 100px;
+    }
+
+    .card__link2 {
+        margin-left: 15px;
+        width: 100px;
+    }
+
+    .register_input3 {
+        width: 100px;
+    }
+
+    .register_input4 {
+        width: 100px;
+    }
+
+    .register_input5 {
+        width: 100px;
+    }
+
+    .register_input6 {
+        width: 100px;
+    }
+}
+
+@media (max-width: 104px) {
+    .courses__content2 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 100px) {
+    .courses__content2 {
+        grid-template-columns: 90px;
+    }
+
+    .card__title2 {
+        font-size: 15px;
+    }
+
+    .register_input1 {
+        width: 50px;
+    }
+
+    .register-input2 {
+        width: 50px;
+    }
+
+    .card__link2 {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .register_input3 {
+        width: 50px;
+    }
+
+    .register_input4 {
+        width: 50px;
+    }
+
+    .register_input5 {
+        width: 50px;
+    }
+
+    .register_input6 {
+        width: 50px;
+    }
+
+    .register_footer {
+        margin-left: -40px;
+    }
+}

@@ -81,6 +81,15 @@ body {
     margin: 0 auto;
 }
 
+.card__link_peluqueria:hover {
+    background-color: #14208a;
+    color: #e2e8f0;
+}
+
+.placeholder_title_01 {
+    margin-left: 75px;
+}
+
 @mixin templateGrid($pilars) {
     display: grid;
     grid-template-columns: repeat($pilars, 1fr);

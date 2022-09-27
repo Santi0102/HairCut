@@ -10,40 +10,7 @@
 
 /* cartas de la pagina mejores locales: */
 
-.card10 {
-    background-color: #ffffff;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-    width: 333.34px;
-    height: 208px;
-}
-
-/* cartas de la pagina mejores locaes: */
-
-.card11 {
-    background-color: #ffffff;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-    width: 333.34px;
-    height: 208px;
-    margin-top: -307px;
-}
-
-.card11:hover {
-    transform: translateY(190px);
-}
-
 /* carta de la pagina registrarse: */
-
-.card2 {
-    background-color: #ffffff;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-    margin-top: -15px;
-}
 
 /* carta de la pagina politica y privacidad: */
 
@@ -64,32 +31,9 @@
 
 /* titulo de la pagina registrarse */
 
-.card__title2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
 /* descripcion de la pagina index: */
 
 /* link para registrarse de la pagina registrarse */
-
-.card__link2 {
-    margin-top: 20px;
-    background-color: #22c55e;
-    display: inline-block;
-    margin-left: 175px;
-    margin-bottom: 30px;
-    width: 150px;
-    padding: 15px 0;
-    text-align: center;
-    color: #e2e8f0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-}
 
 /* link saber mas en la pagina index: */
 
@@ -101,74 +45,6 @@
 
 /* div de las imagenes de servicios en el index: */
 
-.filters_services {
-    width: 140px;
-}
-
-.ubicacion_pelu {
-    margin-left: 20px;
-}
-
-.placeholder_title {
-    margin-left: 90px;
-}
-
-.ubication_cities {
-    margin-left: -30px;
-}
-
-.filter_title {
-    margin-top: 20px;
-}
-
-.filter_total {
-    margin-left: 20px;
-}
-
-.max-min_placeholder {
-    width: 70px;
-    margin-left: 20px;
-    margin-right: -15px;
-    margin-top: 2px;
-}
-
-.placeholder_title {
-    margin-left: 20px;
-}
-
-.aside_bar_left {
-    margin-top: 50px;
-}
-
-.courses__content_pelu {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin: 0 auto;
-    margin-top: -1000px;
-    margin-left: 180px;
-}
-
-.courses__content_pelu_prod {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin: 0 auto;
-    margin-top: -1240px;
-    margin-left: 180px;
-}
-
-
-
-
-.courses__content_pelu_comprarproductos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: -1200px;
-}
 
 .footer__content {
     display: grid;
@@ -234,15 +110,6 @@
     position: relative;
 }
 
-.courses__content2 {
-    display: grid;
-    grid-template-columns: 500px;
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
 .courses__content3 {
     display: grid;
     margin-top: 20px;
@@ -254,75 +121,7 @@
     padding: 10px;
 }
 
-.register_input1 {
-    padding: 7px;
-    width: 150px;
-    border-radius: 10px;
-    margin-left: 85px;
-}
 
-.register-input1 {
-    grid-area: Nombre;
-    display: inline-block;
-}
-
-.register_input2 {
-    padding: 7px;
-    width: 150px;
-    border-radius: 10px;
-    margin-left: 10px;
-}
-
-.register_input3 {
-    padding: 7px;
-    width: 314px;
-    border-radius: 10px;
-    margin-left: 85px;
-    margin-top: 15px;
-}
-
-.register_input4 {
-    padding: 7px;
-    width: 314px;
-    border-radius: 10px;
-    margin-left: 85px;
-    margin-top: 15px;
-}
-
-.register_input5 {
-    padding: 7px;
-    width: 314px;
-    border-radius: 10px;
-    margin-left: 85px;
-    margin-top: 15px;
-}
-
-.register_input6 {
-    padding: 7px;
-    width: 314px;
-    border-radius: 10px;
-    margin-left: 85px;
-    margin-top: 15px;
-}
-
-.register_input7 {
-    padding: 7px;
-    width: 200px;
-    border-radius: 10px;
-    background-color: #22c55e;
-    color: #ffffff;
-}
-
-.register_footer {
-    text-align: center;
-    margin-top: 20px;
-    line-height: 18px;
-    padding: 0 50px;
-}
-
-.register_footer2 {
-    text-align: center;
-}
 
 .register_login {
     color: rgb(0, 140, 255);
@@ -338,52 +137,10 @@
     margin-top: 20px;
 }
 
-.main_servpeluqueria {
-    position: relative;
-}
-
-.barra_busqueda_serv {
-    margin-top: -70px;
-    margin-left: 10px;
-    padding: 5px;
-    border-radius: 30px;
-    width: 200px;
-    position: absolute;
-    top: 75px;
-    left: 465px;
-}
-
-.barra_busqueda2 {
-    padding: 10px;
-    border-radius: 30px;
-    height: 30px;
-    width: 200px;
-    transition: all 0.5s;
-    position: absolute;
-    top: 7px;
-    left: 415px;
-}
-
-.barra_busqueda_serv:focus {
-    width: 400px;
-    border: 3px solid black;
-}
-
 
 .barra_busqueda2:focus {
     width: 400px;
     border: 4px solid black;
-}
-
-
-.barra__busqueda--boton_serv {
-    height: 36px;
-    width: 40px;
-    border-radius: 30px;
-    border-color: black;
-    position: absolute;
-    left: 935px;
-    top: 6px
 }
 
 .filter_serv {
@@ -529,81 +286,7 @@
     height: 600px;
 }
 
-.main_animaciones {
-    position: relative;
-}
 
-.sun {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 100px;
-    left: 40px;
-    animation-name: sunMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
-
-.image_animation {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-    left: 1400px;
-    animation-name: sprayMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
-
-.image_animation2 {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-    left: 1600px;
-    animation-name: makeupMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
-
-.image_animation3 {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-    left: 230px;
-    animation-name: buyMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
-
-.image_animation4 {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-    left: 450px;
-    animation-name: depilateMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
-
-.image_animation5 {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-    left: 1800px;
-    animation-name: buyMove;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-}
 
 .map_arg {
     margin-top: 25px;
@@ -627,9 +310,9 @@
     margin-top: 150px;
 }
 
-.footer_seccion_peluqueria_comprarproductos {
+/* .footer_seccion_peluqueria_comprarproductos {
     margin-top: 150px;
-}
+} */
 
 .footer_seccion_peluqueria {
     margin-top: 5px;
@@ -641,19 +324,6 @@
     gap: 100px;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.servpeluqueria_title {
-    margin-left: 10px;
-}
-
-.card__link2:hover {
-    background-color: #1ca24d;
-    color: white;
-}
-
-.card__link2:active {
-    transform: scale(0.9);
 }
 
 
@@ -756,49 +426,6 @@
 
 
 
-.card_peluqueria {
-    background-color: #ffffff;
-    padding: 0px;
-    border-radius: 20px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-    height: 398px;
-    width: 270px;
-}
-
-.card_peluqueria_01 {
-    background-color: #ffffff;
-    padding: 0px;
-    border-radius: 20px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-    height: 100%;
-    width: 270px;
-}
-
-.card__title_peluqueria {
-    font-size: 20px;
-    padding: 10px;
-}
-
-.card__description_peluqueria {
-    padding: 10px;
-}
-
-.card__link_peluqueria {
-    background-color: #2232c5;
-    display: inline-block;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    color: #e2e8f0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.image_pelu {
-    width: 100%;
-}
 
 .card_peluqueria2 {
     background-color: #ffffff;
@@ -853,11 +480,6 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
-}
-
-.card__link_peluqueria:hover {
-    background-color: #14208a;
-    color: #e2e8f0;
 }
 
 /* mediaqueries de la pagina index: */
