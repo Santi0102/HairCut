@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+.instagram {
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+}
+
+.twitter {
+    position: fixed;
+    bottom: 40px;
+    right: 135px;
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 40px;
+    right: 200px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.services_haircut {
+    margin-top: 60px;
+    padding: 0 20px;
+
+    &services_content {
+        @extend .contenedor1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 100px;
+    }
+}
+
+.courses {
+    margin-top: 60px;
+    padding: 0 20px;
+
+    &courses__content2 {
+        display: grid;
+        grid-template-columns: 500px;
+        gap: 100px;
+        justify-content: center; 
+
+        &card2 {
+            background-color: #ffffff;
+            padding: 0px;
+            border-radius: 10px;
+            box-shadow: 0 25px 50px -12px black;
+            margin-top: -15px; }
+            &card__title2 {
+              font-size: 30px;
+              margin-bottom: 20px;
+              text-align: center;
+              margin-top: 20px; }
+
+              &registers_inputs {
+                padding: 0; }
+    }
+}
+
+.main_servpeluqueria {
+    position: relative; 
+    &servpeluqueria_title {
+      margin-left: 10px; 
+        &barra_busqueda_serv {
+            margin-top: -70px;
+            margin-left: -110px;
+            padding: 5px;
+            border-radius: 30px;
+            width: 200px;
+            position: absolute;
+            top: 75px;
+            left: 465px;
+        &barra_busqueda_serv:focus {
+            width: 400px;
+            border: 3px solid black; }
+        }
+    }
+    &aside_bar_left {
+      margin-top: 50px; 
+      &ubicacion_pelu {
+        margin-left: 20px; }
+      &ubication_cities {
+        margin-left: -30px; }
+      &filter_total {
+        margin-left: 20px; }
+      &filter_title {
+        margin-top: 20px; }
+      &filters_services {
+        width: 140px; }
+      &placeholder_title_01 {
+        margin-left: 20px; }
+    }
+}
+
+.footer__content2 {
+    @extend .contenedor1;
+    display: grid;
+    justify-content: center;
+    gap: 100px;
+}
+
+.registers_inputs {
+    padding: 0; }
+
+.contenedor1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card__link_peluqueria:hover {
+    background-color: #14208a;
+    color: #e2e8f0;
+}
+
+.placeholder_title_01 {
+    margin-left: 75px;
+}
+
+.register_login {
+    color: #008cff; }
+
+.register_footer2 {
+    text-align: center; }
+
+@mixin templateGrid($pilars) {
+    display: grid;
+    grid-template-columns: repeat($pilars, 1fr);
+    gap: 100px;
+}
+
+@media (max-width: 1400px) {
+    .image_haircut {
+        margin-left: 20px;
+    }
+    .navbar-nav {
+        font-size: 15px;
+    } 
+}
+
+@media (max-width: 1199px) {
+    .image_haircut {
+        width: 150px;
+        margin-left: -100px;
+    }
+    .navbar-nav {
+        width: 800px;
+    } 
+}
+
+@media (max-width: 1138px) {
+    .image_haircut {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+         width: 600px;
+         font-size: 13px;
+    } 
+}
+
+@media (max-width: 1092px) {
+    .barra_busqueda_serv {
+        margin-left: -130px;
+    }
+}
+
+@media (max-width: 993px) {
+    .redes_sociales {
+      display: none; 
+    } 
+}
+
+@media (max-width: 992px) {
+    .image_haircut {
+        margin-left: 10px;
+    }
+    .navbar-nav {
+        margin-top: 50px;
+    }
+    .navbar-brand {
+        margin-top: -10px;
+    }
+    .services_content {
+        grid-template-columns: repeat(2, 300px); 
+    } 
+}
+
+@media (max-width: 950px) {
+    .barra_busqueda_serv {
+        margin-left: -140px;
+    }
+}
+
+@media (max-width: 850px) {
+    .barra_busqueda_serv {
+        margin-left: -150px;
+    }
+}
+
+@media (max-width: 795px) {
+    .barra_busqueda_serv {
+        margin-left: -450px;
+        margin-top: -30px;
+    }
+    .aside_bar_left {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 578px) {
+    .services_content {
+      grid-template-columns: 300px; 
+      justify-content: center;
+    } 
+}
+
+@media (max-width: 506px) {
+    .courses__content2 {
+      grid-template-columns: 400px; }
+    .registers_inputs {
+      margin-left: -50px; }
+}
+
+@media (max-width:480px) {
+    .image_haircut {
+        width: 150px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+} 
+
+@media (max-width: 455px) {
+    .aside_bar_left {
+        margin-left: -15px;
+    }
+}
+    
+@media (max-width:422px) {
+    .barra_busqueda_serv:focus {
+        width: 300px;
+    }
+}
+
+@media (max-width: 406px) {
+    .courses__content2 {
+      grid-template-columns: 300px; 
+    }
+}
+
+@media (max-width: 395px) {
+    .navbar-brand {
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+    .image_haircut {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 375px){
+    .image_haircut {
+        width: 130px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 340px){
+    .image_haircut {
+        display: none;
+    }
+    .navbar-brand {
+        font-size: 40px;
+    }
+    .services_content {
+        grid-template-columns: 200px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .courses__content2 {
+      grid-template-columns: 200px; 
+    }
+}
+    
+@media (max-width:318px) {
+    .barra_busqueda_serv:focus {
+        width: 200px;
+    }
+}
+    
+@media (max-width:246px) {
+    .barra_busqueda_serv {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 160px) {
+    .courses__content2 {
+      margin-left: 120px; 
+    } 
+}
+    
+@media (max-width:150px) {
+    .barra_busqueda_serv {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 119px) {
+    .servpeluqueria_title {
+      display: none; 
+    } 
+}
+
+@media (max-width: 105px) {
+    .courses__content2 {
+      grid-template-columns: 130px; 
+    }
+}
+
+@media (max-width: 104px) {
+    .courses__content2 {
+      margin-left: 30px; 
+    } 
+}
+
+@media (max-width: 100px) {
+    .courses__content2 {
+      grid-template-columns: 90px; 
+    }
+}

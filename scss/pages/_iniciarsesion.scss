@@ -1,0 +1,226 @@
+.courses__content2 {
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 100px;
+    justify-content: center; 
+
+    &card2 {
+      background-color: #ffffff;
+      padding: 0px;
+      border-radius: 10px;
+      box-shadow: 0 25px 50px -12px black;
+      margin-top: -15px;
+
+      &card__title2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px; }
+
+        &register_input50 {
+          text-align: center;
+          justify-items: center;
+          padding: 12px;
+          width: 314px;
+          border-radius: 10px;
+          margin-left: 85px;
+          margin-top: 15px; }
+
+        &register_input51 {
+          padding: 12px;
+          text-align: center;
+          justify-items: center;
+          width: 314px;
+          border-radius: 10px;
+          margin-left: 85px;
+          margin-top: 15px; }
+
+        &register_footer2 {
+          margin-top: 15px;}
+
+        &register_footer02 {
+          text-align: center;
+          justify-items: center;
+          font-size: 12px;   
+          margin-top: 20px; 
+          max-width: 300px;
+          margin-left: 90px;}
+
+        &card__link4 {
+            margin-top: 20px;
+            background-color: #e6e6e6;
+            position: relative;
+            display: inline-block;
+            margin-left: 85px;
+            margin-bottom: 30px;
+            width: 314px;
+            padding: 15px 0;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px; 
+
+            &card__link4:active {
+              transform: scale(0.9); }
+            }
+
+        &card__link5 {
+            margin-top: 20px;
+            background-color: #e6e6e6;
+            position: relative;
+            display: inline-block;
+            margin-top: -10px;
+            margin-left: 85px;
+            width: 314px;
+            padding: 15px 0;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px; }
+
+            &card__link5:active {
+                transform: scale(0.9); }
+
+        &card__link6 {
+            margin-top: 20px;
+            background-color: #e6e6e6;
+            position: relative;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 85px;
+            width: 314px;
+            padding: 15px 0;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+
+            &card__link6:active {
+                transform: scale(0.9); }
+            }
+
+        &card__link10 {
+            margin-top: 20px;
+            background-color: black;
+            display: inline-block;
+            margin-left: 175px;
+            margin-bottom: 30px;
+            width: 150px;
+            padding: 15px 0;
+            text-align: center;
+            color: #e2e8f0;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px; 
+
+            &card__link10:hover {
+                color: white; }
+
+            &card__link10:active {
+                transform: scale(0.9); }
+        }
+    }
+}
+
+@media (max-width:506px) {
+    .divide_line {
+        max-width: 420px;
+        margin-left: 50px;
+    }
+    .register_footer2 {
+        margin-left: 45px;
+    }
+    .register_input50 {
+        width: 330px;
+    }
+    .register_input51 {
+        width: 330px;
+    }
+    .card__link4 {
+        width: 330px;
+    }
+    .card__link5{
+        width: 330px;
+    }
+    .card__link6 {
+        width: 330px;
+    }
+    .register_footer02 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 406px) {
+    .register_input50 {
+        width: 270px;
+    }
+    .register_input51 {
+        width: 270px;
+    }
+    .register_footer2 {
+        max-width: 270px;
+        margin-left: 82px;
+    }
+    .card__link10 {
+        margin-left: 150px;
+    }
+    .card__link4 {
+        width: 270px;
+    }
+    .card__link5 {
+        width: 270px;
+    }
+    .card__link6 {
+        width: 270px;
+    }
+    .register_footer02 {
+        margin-left: 15px;
+        max-width: 270px;
+    }
+    .divide_line {
+        max-width: 350px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .register_input50 {
+        width: 170px;
+    }
+    .register_input51 {
+        width: 170px;
+    }
+    .register_footer2 {
+        max-width: 170px;
+        margin-left: 82px;
+    }
+    .card__link10 {
+        margin-left: 95px;
+    }
+    .card__link4 {
+        width: 170px;
+    }
+    .card__link5 {
+        width: 170px;
+    }
+    .card__link6 {
+        width: 170px;
+    }
+    .register_footer02 {
+        margin-left: 1px;
+    }
+    .divide_line {
+        max-width: 350px;
+        margin-left: 70px;
+    }
+    .google_icon {
+        display: none;
+    }
+}

@@ -1,0 +1,168 @@
+.depilacion_titulo {
+    text-align: center;
+}
+
+.depilacion {
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    gap: 20px, 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &carta_depilacion {
+        display: flex;
+        width: 600px;;
+        padding: 20px;
+        border-radius: 10px;
+
+        &depilacion_header {
+            text-decoration: none;
+
+            &image_depilacion {
+                border-radius: 10px;
+            }
+        }
+
+        &descripcion {
+            padding: 20px;
+            margin-top: 70px;
+
+            &add_button {
+                background-color: black;
+                display: inline-block;
+                text-decoration: none;
+                width: 100%;
+                padding: 15px 0;
+                text-align: center;
+                color: #e2e8f0;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+h6 {
+    font-weight: bold;
+}
+
+@media (max-width:1778px) {
+    .depilacion {
+        grid-template-columns: repeat(2, 600px);
+    }
+}
+
+@media (max-width:1171px) {
+    .depilacion {
+        grid-template-columns: repeat(1, 600px);
+    }
+}
+
+@media (max-width:579px) {
+    .image_depilacion {
+        width: 300px;
+        height: 250px;
+    }
+    .carta_depilacion {
+        width: 500px;
+    }
+    .descripcion {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:572px) {
+    .depilacion {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:525px) {
+    .depilacion {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 515px) {
+    .add_button{
+      width: 100px;
+    } }
+
+@media (max-width:486px) {
+    .image_depilacion {
+        width: 250px;
+        height: 200px;
+    }
+    .depilacion {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width:448px) {
+    .image_depilacion {
+        width: 200px;
+        height: 200px;
+    }
+    .depilacion {
+        margin-left: 160px;
+    }
+    .carta_depilacion {
+        width: 450px;
+    }
+    .descripcion {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:404px) {
+    .depilacion {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width:387px) {
+    .carta_depilacion {
+        width: 400px;
+    }
+    .depilacion {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:387px) {
+    .depilacion {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width:334px) {
+    .depilacion {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width:304px) {
+    .image_depilacion {
+        width: 180px;
+    }
+    .carta_depilacion {
+        width: 350px;
+    }
+    .add_button {
+        width: 75px;
+    }
+}
+
+@media (max-width:304px) {
+    .depilacion {
+        margin-left: 280px;
+    }
+}
+
+@media (max-width:284px) {
+    .depilacion {
+        margin-left: 300px;
+    }
+}

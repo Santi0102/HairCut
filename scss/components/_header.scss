@@ -1,0 +1,34 @@
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #eeeeee;
+    padding: 10px 10px;
+    z-index: 1; 
+
+    &image_haircut {
+        margin-top: 5px;
+        margin-left: 100px;
+    }
+
+    &navbar-brand {
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    &navbar-nav {
+        margin-top: -15px;
+
+        &navbar-nav a:hover {
+            font-weight: bold; }
+
+        &navbar-nav li {
+            transition: transform 0.3s; 
+
+            &navbar-nav li:active {
+                transform: scale(0.9); 
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.footer_01 {
+    &footer_section3 {  
+        $countryColour: (
+            argentina: #55acee,
+            uruguay: #0703e0,
+            chile: #f01414,
+            brasil: #048d04,
+            mexico: #044107,
+        );
+
+        @each $nameCountry, $colorCountry in $countryColour {
+            .cc-#{&countryColour} {
+                transition: all in 0.3s;
+
+                &:hover {
+                    color: $colorCountry;
+                }
+            }
+        }
+    }
+}

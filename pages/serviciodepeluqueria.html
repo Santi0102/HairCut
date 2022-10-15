@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HairCut es una Plataforma de peluqueria, depilacion, maquillaje entre muchos otros servicios totalemente a domicilio.">
+    <meta name="keywords" content="peluquero, servicios, cortes, negocio, maquillaje, depilacion, Haircut, productos, a domicilio" />
+    <title>HairCut</title>
+    <link rel="shortcut icon" href="../assets/images/32069.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <a href="../index.html"><img class="image_haircut" src="../assets/images/otratijerav2.jpg" width="200px" height="85px"></a>
+                <a class="navbar-brand" href="../index.html">HairCut</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/registrarse.html">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/iniciarsesion.html">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/serviciodepeluqueria.html">Cortes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sobrenosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/compradeproductos.html">Comprar productos</a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/depilacion.html">Depilacion</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main_servpeluqueria">
+        <section class="">
+            <h2 class="servpeluqueria_title">Servicio de peluqueria:</h2>
+            <section>
+                <article class="barradebusqueda_serv">
+                    <input class="barra_busqueda_serv" type="text" placeholder="Buscar peluqueros"/>
+                </article>
+            </section>
+            <div class="aside_bar_left">
+                <div class="ubicacion_pelu">
+                <p class="">Ubicacion:</p>
+                <ul class="ubication_cities">
+                    <li>Capital Federal</li>
+                    <li>Santa Fe</li>
+                    <li>G.B.A Sur</li>
+                    <li>Cordoba</li>
+                    <li>Mendoza</li>
+                    <li>G.B.A Norte</li>
+                </ul>
+                </div>
+                <div class="">
+                    <p class="placeholder_title_01">Precio</p>
+                    <input class="max-min_placeholder" type="text" placeholder="Minimo"/>
+                    <input class="max-min_placeholder" type="text" placeholder="Maximo"/>
+                </div>
+
+                <div class="filter_total">
+                    <p class="filter_title">Filtrar por:</p>
+                    <section class="filters_services">
+                        <hr />
+                        <input type="radio" name="servicios" id="Hombre"/>
+                        <label for="Hombre">Hombre</label>
+                        <hr />
+                        <input type="radio" name="servicios" id="Mujer"/>
+                        <label for="Mujer">Mujer</label>
+                        <hr />
+                        <input type="radio" name="servicios" id="Mejor puntuado"/>
+                        <label for="Mejor puntuado">Mejor puntuado</label>
+                        <hr />
+                        <input type="radio" name="servicios" id="Tienda mas cercana"/>
+                        <label for="Tienda mas cercana">Mas cercano</label>
+                        <hr />
+                    </section>
+                </div>
+
+                <div class="ubicacion_pelu">
+                <ul class="ubication_cities">
+                    <p>Metodo de pago:</p>
+                    <ul class="ubication_cities">
+                        <li>Tarjeta de credito</li>
+                        <li>Efectivo</li>
+                        <li>Cuotas sin interes</li>
+                        <li>Tarjeta de debito</li>
+                        <li>Criptomoneda</li>
+                    </ul>
+                </div>
+
+                <div class="ubicacion_pelu">
+                    <p class="">Descuentos</p>
+                    <ul class="ubication_cities">
+                        <li>Desde 5% OFF</li>
+                        <li>Desde 10% OFF</li>
+                        <li>Desde 15% OFF</li>
+                        <li>Desde 20% OFF</li>
+                        <li>Desde 25% OFF</li>
+                    </ul>
+                    </div>
+
+                <div class="">
+                    <p class="placeholder_title">Edad:</p>
+                    <input class="max-min_placeholder" type="text" placeholder="Minimo"/>
+                    <input class="max-min_placeholder" type="text" placeholder="Maximo"/>
+                </div>
+            </div>
+
+
+            <div class="courses__content_pelu">
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/128269963-retrato-de-primer-plano-de-ella-bonita-atractiva-elegante-contenido-tranquilo-dama-de-pelo-lacio-vis.webp" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Agustina Roman</h2>
+                    <p class="card__description_peluqueria">Edad: 27 años. Realiza coloraciones de todo tipo y cortes unicamente a tijera. Se mueve por los barrios de Nuñez, Belgrano, Palermo, Retiro y Avellaneda.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/macho-sonrisa-perfecta-cara-afeitar-aislada-sobre-fondo-blanco-hombre-feliz-barba-barbudo-guapo-cuidado-piel-aseo-peluqueria-peluqueria_474717-43748.webp" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Gaston Martinez</h2>
+                    <p class="card__description_peluqueria">Edad: 34 años. Realiza cortes a máquina para todos los géneros en el estilo degradado. Se mueve por los barrios de Coghlan, Belgrano, Saavedra y Palermo.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/52231994-el-estudio-tiró-de-hombre-joven-mirando-a-la-cámara-aislado-en-el-fondo-blanco-formato-horizontal-qu.webp" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Matias Fernandez</h2>
+                    <p class="card__description_peluqueria">Edad: 21 años. Realiza coloraciones y cortes solo para hombres. Se caracteriza por innovar estilos de peinados. Se mueve por los barrios de Florida y San Isidro.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/White_background_Glance_Face_570782_3840x2400.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Romina Castro</h2>
+                    <p class="card__description_peluqueria">Edad: 32 años. Realiza coloraciones y varios cortes. También se destaca en maquillaje. Se mueve por los barrios de Colegiales, Nuñez, Belgrano y Florida.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/78858095-mujer-adulta-joven-retrato-de-estudio-de-expresión-de-cara-serena.webp" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Juana Linares</h2>
+                    <p class="card__description_peluqueria">Edad: 23 años. Se especializa en cortar las puntas del cabello de mujer y en producciones de color y maquillaje. Se mueve por los barrios de Almagro y Balvanera.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/confiado-en-su-perfeccion-el-hombre-con-la-cerda-sonrio-la-cara-aislada-fondo-blanco-concepto-de-belleza-masculina-hombre-con-barba-sin-afeitar-se-ve-guapo-buen-hu.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Fernando Castelli</h2>
+                    <p class="card__description_peluqueria">Edad: 30 años. Se especializa en cortes con navaja incluyendo también cortes de ceja y barba. Se mueve por los barrios de Avellaneda, Barracas y Once.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Fernando Colombato</h2>
+                    <p class="card__description_peluqueria">Edad: 54 años. Se especializa en cortes a tijera y también de barba exclusivamente para los hombres. Se mueve por los barrios de Saavedra, Belgrano y La Boca.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/hombre-joven-en-el-fondo-blanco-21832712.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Diego Quiroz</h2>
+                    <p class="card__description_peluqueria">Edad: 32 años. Se especializa en cortes con degrade a maquina especialmente con la numero 0. Se mueve por los barrios de La Boca, San Telmo y Banfield.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/mujer-mayor-con-la-cara-de-arruga-aislada-en-el-fondo-blanco-señora-sana-madura-copie-espacio-mayores-forma-vida-y-perso-personas-141026907.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Martina Gonzalez</h2>
+                    <p class="card__description_peluqueria">Edad: 62 años. Se especializa en cortes de mujer caracterizándose por la realizacion de la definitiva. Se mueve por los barrios de San Isidro, Florida, Tigre y Olivos.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/76309178-retrato-de-hombre-cara-expresión-seria.webp" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Claudio Fontana</h2>
+                    <p class="card__description_peluqueria">Edad: 30 años. Se especializa en cortes con navaja y maquina para hombres y mujeres. Se mueve por los barrios de La Matanza, Ituzaingó, Lanus y La Boca.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/istockphoto-1126392637-612x612.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Sandra Fernandez</h2>
+                    <p class="card__description_peluqueria">Edad: 39 años. Se especializa en coloración y maquillaje sobre todo delineado y sombreado. Se mueve por los barrios de Avellaneda, Barracas, Lanús y La Boca.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+
+                <article class="card_peluqueria">
+                    <div class="card__header_peluqueria">
+                        <img class="image_pelu" src="../assets/images/istockphoto-1319812102-612x612.jpg" width="200" height="160"/>
+                    </div>
+                    <h2 class="card__title_peluqueria">Ayelen Martinez</h2>
+                    <p class="card__description_peluqueria">Edad: 40 años. Se especializa en cortes de todo tipo para niños y niñas de entre 6 y 12 años. Se mueve por los barrios de Microcentro, Recoleta y Nuñez.</p>
+                    <a class="card__link_peluqueria" href="">Contactar</a>
+                </article>
+            </div>    
+        </section>
+        </section>
+    </main>
+    <footer class="footer_01">
+        <section class="services_haircut">
+            <div class="services_content">
+                <article class="footer_section1">
+                    <h3>Sobre Haircut</h3>
+                    <ul>
+                        <li class="footer_priv"><a href="">Politica de privacidad</a></li>
+                        <li class="footer_terminosycondiciones"><a href="">Terminos y condiciones</a></li>
+                        <li class="footer_acuerdos"><a href="">Acuerdos Corportativos</a></li>
+                        <li class="footer_contacto"><a href="">Contacto</a></li>
+                        <li class="footer_blog"><a href="">Busca peluqueros cerca tuyo</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer_section2">
+                    <h3>Quiza te interese</h3>
+                    <ul>
+                        <li><a href="">Mejores locales</a></li>
+                        <li><a href="">Productos mas vendidos</a></li>
+                        <li><a href=""></a>Cortes de pelo para ti</li>
+                        <li><a href="">Mejores ofertas</a></li>
+                        <li><a href="">Peluqueros mejor puntuados</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer_section3">
+                    <h3>Donde nos encontramos:</h3>
+                    <ul>
+                        <li><a href=""class="cc-argentina">Argentina</a></li>
+                        <li><a href=""class="cc-uruguay">Uruguay</a></li>
+                        <li><a href=""class="cc-chile">Chile</a></li>
+                        <li><a href=""class="cc-brasil">Brasil</a></li>
+                        <li><a href=""class="cc-mexico">Mexico</a></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="footer__content2">
+                <article class="footer_section11">
+                    <ul class="footer_section4">
+                        <li>Haircut Arg S.A.S</a></li>
+                        <li>CUIT 00-00000000-1</a></li>
+                        <li>Avenida Cordoba 4569 piso 20º</li>
+                        <li>ayudaenlinea@haircut.com</a></li>
+                        <li>Haircut 2020-2022</a></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="redes_sociales">
+            <div class="whatsapp">
+                <a href="https://www.whatsapp.com"><img src="../assets/images/WhatsApp.svg.webp" alt="Whatsapp" width="60px" height="60px" /></a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com"><img src="../assets/images/Instagram-Icon.png.webp" alt="instagram" width="60px" height="55px" /></a>
+            </div>
+            <div class="twitter">
+                <a href="https://www.twitter.com"><img src="../assets/images/Twitter-logo.svg.webp" alt="twitter" width="60px" height="55px" /></a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com"><img src="../assets/images/174857.png" alt="linkedin" width="60px" height="55px" /></a>
+            </div>
+        </section>
+    </section>
+</footer>
+</body>
+</html>

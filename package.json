@@ -1,0 +1,22 @@
+{
+  "name": "haircut",
+  "version": "1.0.0",
+  "description": "proyecto de practica",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santi0102/HairCut.git"
+  },
+  "author": "Santiago Costanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santi0102/HairCut/issues"
+  },
+  "homepage": "https://github.com/Santi0102/HairCut#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
